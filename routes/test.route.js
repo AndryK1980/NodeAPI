@@ -15,6 +15,4 @@ router.put('/:id/update',my_test_controller.productupdate);
 
 router.delete('/:id/delete',my_test_controller.productdelete);
 
-router.get('/allprod',my_test_controller.allproducts);
-
 module.exports=router;
